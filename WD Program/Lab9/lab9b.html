@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>lab9b</title>
+	<style type="text/css">
+
+		.black{
+			
+			background-color: black;
+			height: 900px;
+			width: 900px;
+			z-index: -10;
+			border-radius: 10%;
+			position: absolute;
+		}
+		.ball1{
+			animation-name: anim1;
+			background-color: red;
+			border-radius: 100%;
+			z-index: -1;
+			top: 400px;
+			position: absolute;
+			height: 100px;
+			width: 100px;
+			animation-direction: alternate;
+			animation-timing-function: linear;
+			animation-iteration-count: 1;
+			animation-duration: 5s;
+			animation-delay: 1s;
+
+		}
+		.ball2{
+			animation-name: anim2;
+			background-color: yellow;
+			border-radius: 100%;
+			z-index: -1;
+			position: absolute;
+			height: 100px;
+			width: 100px;
+			top: 400px;
+			animation-direction: alternate;
+			animation-timing-function: linear;
+			animation-iteration-count: 1;
+			animation-duration: 5s;
+			animation-delay: 1s;
+		}
+		.ball3{
+			animation-name: anim3;
+			background-color: purple;
+			border-radius: 100%;
+			z-index: -1;
+			position: absolute;
+			height: 100px;
+			width: 100px;
+			top: 400px;
+			animation-direction: alternate;
+			animation-timing-function: linear;
+			animation-iteration-count: 1;
+			animation-duration: 5s;
+			animation-delay: 1s;
+		}
+		@keyframes anim1{
+			0%{left: 0px;top: 400px;}
+			33%{left: 800px;top: 400px;}
+			66%{left: 400px;top: 0px;}
+			100%{left: 0px;top: 400px;}
+		}
+		@keyframes anim2{
+			0%{left: 0px;top: 400px;}
+			33%{left: 800px;top: 400px;}
+			66%{left: 400px;top: 800px;}
+			100%{left: 0px;top: 400px;}
+		}
+		@keyframes anim3{
+			0%{left: 0px;top: 400px;}
+			33%{left: 800px;top: 400px;}
+			66%{left: 400px;top: 400px;}
+			100%{left: 0px;top: 400px;}
+		}
+
+	</style>
+</head>
+<body>
+	<div class="black">
+		<div class="ball1"></div>
+		<div class="ball2"></div>
+		<div class="ball3"></div>
+	</div>
+
+</body>
+</html>

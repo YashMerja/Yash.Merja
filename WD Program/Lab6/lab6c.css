@@ -1,0 +1,105 @@
+*{
+	box-sizing: border-box;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+
+}
+.black1{
+	background-color: black;
+	width: 100%;
+	height: 8%;
+	margin-bottom: 1%;
+}
+.white{
+	height: 65%;
+
+}
+.black2{
+	background-color: black;
+	width: 100%;
+	height: 10%;
+	margin-bottom: 1%;
+}
+.html{
+	background-color: white;
+	color: green;
+	height: 80%;
+	width: 20%;
+	float: left;
+}
+.header{
+	background-color: red;
+	width: 80%;
+	height: 20%;
+	float: right;
+	color: white;
+	margin-bottom: 0.3%;
+
+}
+.navi{
+	background-color: blue;
+	color: white;
+	height: 80%;
+	width: 10%;
+	float: left;
+	margin-bottom: 0.3%;
+}
+.con{
+	background-color: yellow;
+	height: 80%;
+	width: 69%;
+	float: right;
+	margin-bottom: 0.3%;
+}
+.sid{
+	background-color: green;
+	color: white;
+	width: 95%;
+	height: 95%;
+	float: right;
+}
+.foo{
+	background-color: #8FE3D4;
+	color: white;
+	width: 80%;
+	height: 20%;
+	float: right;
+	margin-bottom: 1%;
+}
+.space{
+	background-color: white;
+	width: 20%;
+	height: 60%;
+	float: right;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+@media (max-width:750px) and (min-width:400px){
+	.header{
+		width: 100%;
+	}
+	.navi{
+		width: 100%;
+		margin-top:3% ;
+	}
+	.con{
+		width: 100%;
+		margin-top:3% ;
+	}
+	.sid{
+		width: 100%;
+		margin-top:3% ;
+	}
+	.foo{
+		width: 100%;
+		margin-top:3% ;
+	}
+	.space{
+		width: 100%;
+		margin-top:3% ;
+	}
+	
+}
